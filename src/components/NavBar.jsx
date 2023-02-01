@@ -1,39 +1,54 @@
 function NavBar() {
   return (
-    <nav className='navbar navbar-expand-lg navbar-light bg-light'>
-      <div className='container-fluid'>
-        <a className='navbar-brand' href='#'>
-          Manuj Babu Karki
+    <nav className='w-full py-4 px-8 flex items-center justify-between shadow-sm sticky top-0 left-0 w-full z-100 bg-white'>
+      <div>
+        <a className=' no-underline text-2xl text-transparent bg-clip-text bg-gradient-to-br  from-fuchsia-500 to-pink-500' href='#'>
+          MK
         </a>
-        <div className='' id='navbarSupportedContent'>
-          <ul className='navbar-nav me-auto mb-2 mb-lg-0 container-fluid d-flex flex-row-reverse'>
-            <li className='nav-item'>
-              <a className='nav-link ' href='#'>
-                Home
-              </a>
-            </li>
-            <li className='nav-item'>
-              <a className='nav-link' href='#about'>
-                About
-              </a>
-            </li>
-            <li className='nav-item'>
-              <a className='nav-link' href='#skills'>
-                Skills
-              </a>
-            </li>
-            <li className='nav-item'>
-              <a className='nav-link' href='#projects'>
-                Projects
-              </a>
-            </li>
-            <li className='nav-item'>
-              <a className='nav-link' href='#contact'>
-                Contact
-              </a>
-            </li>
-          </ul>
-        </div>
+      </div>
+      <div className='flex items-center h-full'>
+        <ul className='flex items-center gap-4 h-full mb-0'>
+          <li className='flex items-center h-full'>
+            <a
+              className='no-underline block text-gray-800 hover:text-blue-800 '
+              href='#'
+            >
+              Home
+            </a>
+          </li>
+          <li className='flex items-center h-full '>
+            <a
+              className='no-underline block text-gray-800 hover:text-blue-800'
+              href='#about'
+            >
+              About
+            </a>
+          </li>
+          <li className='flex items-center h-full '>
+            <a
+              className='no-underline block text-gray-800 hover:text-blue-800'
+              href='#projects'
+            >
+              Projects
+            </a>
+          </li>
+          <li className='flex items-center h-full '>
+            <a
+              className='no-underline block text-gray-800 hover:text-blue-800'
+              href='#skills'
+            >
+              Skills
+            </a>
+          </li>
+          <li className='flex items-center h-full '>
+            <a
+              className='no-underline block text-gray-800 hover:text-blue-800'
+              href='#contact'
+            >
+              Contact
+            </a>
+          </li>
+        </ul>
       </div>
     </nav>
   );
