@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "gh-pages": "github-pages -r ./maskudo/portfolio ./dist/"
   },
   "dependencies": {
     "@popperjs/core": "^2.11.6",
