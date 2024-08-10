@@ -1,0 +1,41 @@
+# Node modules
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Logs
+logs
+*.log
+
+# Build output (assuming Vite's default output directory)
+dist
+
+# Dependency directories
+bower_components
+jspm_packages
+
+# dotenv environment variable files
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Mac OS files
+.DS_Store
+
+# Docker files
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Miscellaneous
+*.swp
+*.bak
+*.tmp
+
